@@ -1,0 +1,84 @@
+*{
+     padding: 0px;
+     margin: 0px;
+}
+body{
+     background: linear-gradient(#200016,#10001f) ;
+     width: 100%;
+     height: fit-content;
+     font-size: 25px;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+a{
+     color:aliceblue ;
+     text-decoration: none;
+}
+.head{
+     position: absolute;
+     display: flex;
+     width:  95%;
+     z-index: 100;
+     justify-content: space-between;
+     margin: 20px;
+}
+.head .logo{
+     font-size: 40px;
+}
+.head ul {
+     display: flex;
+}
+.head ul li{
+     list-style: none;
+     margin: 20px;
+     
+}
+.head ul li a{
+     padding: 6px 6px;
+}
+.head ul li a:hover{
+     background-color: aliceblue;
+     border-radius:15px ;
+     color: #360224;
+}
+.main{
+     position: relative;
+     height: 120vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;     
+}
+.main::after{
+     content: '';
+     position: absolute;
+     bottom: 0px;
+     height: 200px;
+     width: 100%;
+     background: linear-gradient(to top,#200016,transparent);
+}
+.main img{
+     position: absolute;
+     width: 100%;
+     height: 120vh;
+     object-fit: cover;
+}
+
+#moon2{
+     mix-blend-mode:screen ;
+}
+.nouvil{
+     color: aliceblue;
+     font-size: 30px;
+     transform: translateY(+150px);
+}
+.cont{
+     padding: 100px;
+     color: aliceblue;
+     background-color:#200016;
+}
+.cont h2{
+     margin: 20px;
+}
+.cont p{
+     margin: 20px;
+}
